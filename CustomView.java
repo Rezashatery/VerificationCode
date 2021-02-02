@@ -30,7 +30,7 @@ public class CustomView extends LinearLayout {
     EditText num3;
     EditText num4;
     EditText num5;
-   // Button atcive;
+   
     OnClickListener listener;
     String activationCode;
     Typeface tf;
