@@ -6,8 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/mainbackground"
     android:layoutDirection="ltr"
-    android:orientation="vertical"
-    android:weightSum="1">
+    android:orientation="vertical">
 
 
         <RelativeLayout
