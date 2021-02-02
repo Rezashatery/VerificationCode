@@ -51,9 +51,7 @@ public class CustomView extends LinearLayout {
         tf = Typeface.createFromAsset(context.getAssets(), "fonts/font2.ttf");
         initComponents();
         getText();
-//        setArtistText(artist);
-//        setTrackText(track);
-//        setButton(buyButton);
+
     }
 
     private void initComponents() {
@@ -67,8 +65,6 @@ public class CustomView extends LinearLayout {
         num3.setTypeface(tf);
         num4.setTypeface(tf);
         num5.setTypeface(tf);
-     //   atcive = findViewById(R.id.btnApprove);
-
     }
 
 
