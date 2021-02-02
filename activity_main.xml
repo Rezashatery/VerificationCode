@@ -51,7 +51,7 @@
                 android:textColor="@color/colorWhite" />
 
 
-            <ir.faash.citypay.mobile.activity.menu.CustomView
+            <your.packagename.CustomView
                 android:id="@+id/text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
