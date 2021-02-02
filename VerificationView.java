@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 
 import ir.faash.citypay.mobile.shatoot.R;
 
-public class CustomView extends LinearLayout {
+public class VerificationView extends LinearLayout {
 
     @StyleableRes
     int index0 = 0;
@@ -30,11 +30,10 @@ public class CustomView extends LinearLayout {
     EditText num3;
     EditText num4;
     EditText num5;
-   // Button atcive;
-    OnClickListener listener;
+   
     String activationCode;
     Typeface tf;
-    public CustomView(Context context, AttributeSet attrs) {
+    public VerificationView(Context context, AttributeSet attrs) {
         super(context,attrs);
         init(context,attrs);
     }
@@ -51,9 +50,7 @@ public class CustomView extends LinearLayout {
         tf = Typeface.createFromAsset(context.getAssets(), "fonts/font2.ttf");
         initComponents();
         getText();
-//        setArtistText(artist);
-//        setTrackText(track);
-//        setButton(buyButton);
+
     }
 
     private void initComponents() {
@@ -67,7 +64,7 @@ public class CustomView extends LinearLayout {
         num3.setTypeface(tf);
         num4.setTypeface(tf);
         num5.setTypeface(tf);
-     //   atcive = findViewById(R.id.btnApprove);
+ 
 
     }
 
@@ -195,23 +192,4 @@ public class CustomView extends LinearLayout {
 
     }
 
-//    public void setArtistText(CharSequence value) {
-//        artistText.setText(value);
-//    }
-//
-//    public CharSequence getTrackText() {
-//        return trackText.getText();
-//    }
-//
-//    public void setTrackText(CharSequence value) {
-//        trackText.setText(value);
-//    }
-//
-//    public CharSequence getButton() {
-//        return buyButton.getText();
-//    }
-//
-//    public void setButton(CharSequence value) {
-//        buyButton.setText(value);
-//    }
 }
