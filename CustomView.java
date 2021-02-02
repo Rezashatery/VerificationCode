@@ -31,7 +31,6 @@ public class CustomView extends LinearLayout {
     EditText num4;
     EditText num5;
    
-    OnClickListener listener;
     String activationCode;
     Typeface tf;
     public CustomView(Context context, AttributeSet attrs) {
