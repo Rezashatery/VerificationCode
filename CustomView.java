@@ -195,23 +195,4 @@ public class CustomView extends LinearLayout {
 
     }
 
-//    public void setArtistText(CharSequence value) {
-//        artistText.setText(value);
-//    }
-//
-//    public CharSequence getTrackText() {
-//        return trackText.getText();
-//    }
-//
-//    public void setTrackText(CharSequence value) {
-//        trackText.setText(value);
-//    }
-//
-//    public CharSequence getButton() {
-//        return buyButton.getText();
-//    }
-//
-//    public void setButton(CharSequence value) {
-//        buyButton.setText(value);
-//    }
 }
